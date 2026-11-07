@@ -1,0 +1,9 @@
+DEBUG: Request: GET /test
+DEBUG: Response: 200 for GET /test
+INFO:     127.0.0.1:51037 - "GET /test HTTP/1.1" 200 OK
+DEBUG: Request: GET /api/recipes/
+DEBUG: Response: 404 for GET /api/recipes/
+INFO:     127.0.0.1:52825 - "GET /api/recipes/ HTTP/1.1" 404 Not Found
+DEBUG: Request: GET /
+DEBUG: Response: 404 for GET /
+INFO:     127.0.0.1:52866 - "GET / HTTP/1.1" 404 Not Found
