@@ -27,8 +27,8 @@ app.add_middleware(BaseHTTPMiddleware, dispatch=log_requests)
 # CORS настройки для разрешения запросов от Telegram Web App
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # В продакшене стоит указать конкретные домены
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,  # ОБЯЗАТЕЛЬНО FALSE при allow_origins=["*"]
     allow_methods=["*"],
     allow_headers=["*"],
 )
