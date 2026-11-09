@@ -98,10 +98,14 @@ def transform_recipe_to_russian(recipe: dict) -> dict:
 async def analyze_dish(
     text: str = Form(...),
     image: Optional[UploadFile] = File(None),
+    servings: int = Form(2),
+    cuisine: str = Form("Любая"),
+    preferences: str = Form("Никаких"),
     current_user: dict = Depends(get_current_user)
 ):
     """
     Анализировать блюдо по тексту и/или фото и вернуть рецепт.
+    Параметры из интервью (опционально, для Mini App используются дефолты).
     """
     # Для MVP возвращаем демо-рецепт
     recipe_id = len(fake_recipes_db) + 1
@@ -112,8 +116,8 @@ async def analyze_dish(
         "description": f"Рецепт на основе: {text[:50]}...",
         "cooking_time": 30,
         "difficulty": "Средняя",
-        "servings": 2,
-        "cuisine": "Домашняя",
+        "servings": servings,
+        "cuisine": cuisine,
         "ingredients": [
             {"name": "Ингредиент 1", "amount": "100 г", "calories": 100, "proteins": 5, "fats": 3, "carbs": 10, "mandatory": True},
             {"name": "Ингредиент 2", "amount": "50 г", "calories": 50, "proteins": 2, "fats": 1, "carbs": 5, "mandatory": True},

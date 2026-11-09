@@ -130,8 +130,8 @@ def calculate_nutrition_percentage(total_nutrition: Dict[str, float]) -> Dict[st
     
     # Калории от белков и углеводов: 4 ккал/г, от жиров: 9 ккал/г
     calories_from_proteins = total_nutrition.get("белки_всего_г", 0) * 4
-    calories_from_fats = total_nutrition.get("жиры_всего_г", 0) * 9
-    calories_from_carbs = total_nutrition.get("углеводы_всего_г", 0) * 4
+    calories_from_fats = total_nutrition.get("жиры_всело_г", 0) * 9
+    calories_from_carbs = total_nutrition.get("углеводы_всело_г", 0) * 4
     
     # Проверяем, что сумма примерно равна общей калорийности (допуск 5%)
     calculated_total = calories_from_proteins + calories_from_fats + calories_from_carbs
@@ -171,15 +171,20 @@ def determine_tags(total_nutrition: Dict[str, float], serving_nutrition: Dict[st
     return tags
 
 
-def validate_ingredients_nutrition(ingredients: List[Dict], total_nutrition: Dict[str, float]) -> Tuple[bool, Dict[str, float]]:
+def validate_ingredients_nutrition(ingredients: List[Dict], total_nutrition: Dict[str, float]) -> Tuple[bool, Dict[str, float], List[Dict]]:
     """
     Проверяет, что сумма калорий и БЖУ по ингредиентам совпадает с переданным итоговым питанием в пределах 5%.
-    Возвращает кортеж (is_valid, actual_totals), где actual_totals — рассчитанные суммы по ингредиентам.
+    Если расхождение > 5%, ПЕРЕСЧИТЫВАЕТ значения из ингредиентов и возвращает исправленные данные.
+    Возвращает кортеж (is_valid, actual_totals, corrected_ingredients), где:
+        - is_valid: True если расхождение <= 5%, False если было пересчитано
+        - actual_totals: рассчитанные суммы по ингредиентам (точные значения)
+        - corrected_ingredients: список ингредиентов с пересчитанными полями калории_итого, белки_итого_г и т.д.
     """
-    totals, _ = calculate_ingredients_nutrition(ingredients)
+    totals, corrected_ingredients = calculate_ingredients_nutrition(ingredients)
+    
     # Сравниваем каждый показатель
     is_valid = True
-    for key in ["калории_всего", "белки_всего_г", "жиры_всего_г", "углеводы_всего_г"]:
+    for key in ["калории_всего", "белки_всего_г", "жиры_всело_г", "углеводы_всело_г"]:
         expected = total_nutrition.get(key, 0)
         actual = totals.get(key, 0)
         if expected == 0:
@@ -192,4 +197,14 @@ def validate_ingredients_nutrition(ingredients: List[Dict], total_nutrition: Dic
             if diff > 0.05:  # более 5%
                 is_valid = False
                 break
-    return is_valid, totals
+    
+    # Если невалидно — возвращаем пересчитанные значения (Python wins)
+    if not is_valid:
+        logger.warning(f"[NUTRITION] Mismatch >5% detected. Recalculating from ingredients.")
+        logger.warning(f"[NUTRITION] Expected: {total_nutrition}, Actual: {totals}")
+    
+    return is_valid, totals, corrected_ingredients
+
+# Добавляем логгер для validate_ingredients_nutrition
+import logging
+logger = logging.getLogger(__name__)

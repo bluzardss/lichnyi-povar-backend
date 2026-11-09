@@ -11,3 +11,6 @@ INFO:aiogram.event:Update id=741595701 is handled. Duration 233 ms by bot id=893
 ERROR:aiogram.dispatcher:Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
 WARNING:aiogram.dispatcher:Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8937224037)
 INFO:aiogram.dispatcher:Connection established (tryings = 1, bot id = 8937224037)
+ERROR:aiogram.dispatcher:Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+WARNING:aiogram.dispatcher:Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8937224037)
+INFO:aiogram.dispatcher:Connection established (tryings = 1, bot id = 8937224037)
