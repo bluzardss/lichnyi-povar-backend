@@ -520,3 +520,293 @@ npm notice run cloudflared tunnel --url http://localhost:5173
 2026-11-07T13:59:03Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.200.53
 2026-11-07T13:59:30Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.73
 2026-11-07T13:59:31Z INF Registered tunnel connection connIndex=0 connection=912149b9-6268-473f-816d-31d2f60bd974 event=0 ip=198.41.200.73 location=fra14 protocol=quic
+2026-11-07T14:02:04Z ERR Serve tunnel error error="accept stream listener error: failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.73
+2026-11-07T14:02:04Z INF Retrying connection in up to 2s connIndex=0 event=0 ip=198.41.200.73
+2026-11-07T14:02:05Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.47
+2026-11-07T14:02:10Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.47
+2026-11-07T14:02:10Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.192.47
+2026-11-07T14:02:13Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T14:02:14Z INF Registered tunnel connection connIndex=0 connection=30b0140d-7801-4a4a-a1b5-c7685aeec4ce event=0 ip=198.41.200.23 location=fra17 protocol=quic
+2026-11-07T14:02:37Z ERR Serve tunnel error error="accept stream listener error: failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T14:02:37Z INF Retrying connection in up to 2s connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T14:02:38Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T14:02:43Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T14:02:43Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T14:02:44Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.73
+2026-11-07T14:02:49Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.73
+2026-11-07T14:02:49Z INF Retrying connection in up to 8s connIndex=0 event=0 ip=198.41.200.73
+2026-11-07T14:02:50Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T14:02:51Z INF Registered tunnel connection connIndex=0 connection=11e39c4c-53bb-48e4-916f-a587e69beaf5 event=0 ip=198.41.200.53 location=fra19 protocol=quic
+2026-11-07T14:03:21Z ERR Serve tunnel error error="datagram manager error: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T14:03:21Z INF Retrying connection in up to 2s connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T14:03:21Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.73
+2026-11-07T14:03:26Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.73
+2026-11-07T14:03:26Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.200.73
+2026-11-07T14:03:26Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T14:03:31Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T14:03:31Z INF Retrying connection in up to 8s connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T14:03:34Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.47
+2026-11-07T14:03:35Z INF Registered tunnel connection connIndex=0 connection=940a3eb6-817d-46fa-b8f5-ccfa326fc430 event=0 ip=198.41.192.47 location=fra10 protocol=quic
+2026-11-07T14:13:09Z ERR Serve tunnel error error="datagram manager error: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.47
+2026-11-07T14:13:09Z INF Retrying connection in up to 2s connIndex=0 event=0 ip=198.41.192.47
+2026-11-07T14:13:11Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.63
+2026-11-07T14:13:12Z INF Registered tunnel connection connIndex=0 connection=2d29e5d3-9803-4a16-be02-97de7c72a3d6 event=0 ip=198.41.200.63 location=fra15 protocol=quic
+2026-11-07T14:17:03Z ERR Serve tunnel error error="accept stream listener error: failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.63
+2026-11-07T14:17:03Z INF Retrying connection in up to 2s connIndex=0 event=0 ip=198.41.200.63
+2026-11-07T14:17:04Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T14:17:09Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T14:17:09Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T14:17:12Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.227
+2026-11-07T14:17:17Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.227
+2026-11-07T14:17:17Z INF Retrying connection in up to 8s connIndex=0 event=0 ip=198.41.192.227
+2026-11-07T14:17:20Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T14:17:25Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T14:17:25Z INF Retrying connection in up to 16s connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T14:17:32Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.7
+2026-11-07T14:17:37Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.7
+2026-11-07T14:17:37Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.7
+2026-11-07T14:17:52Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.27
+2026-11-07T14:17:57Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.27
+2026-11-07T14:17:57Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.27
+2026-11-07T14:18:21Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T14:18:21Z INF Registered tunnel connection connIndex=0 connection=6b202945-cffb-45f9-b37c-132458407962 event=0 ip=198.41.192.67 location=fra10 protocol=quic
+2026-11-07T14:25:56Z ERR Serve tunnel error error="datagram manager error: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T14:25:56Z INF Retrying connection in up to 2s connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T14:25:58Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T14:26:03Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T14:26:03Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T14:26:03Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.193
+2026-11-07T14:26:08Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.193
+2026-11-07T14:26:08Z INF Retrying connection in up to 8s connIndex=0 event=0 ip=198.41.200.193
+2026-11-07T14:26:14Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.7
+2026-11-07T14:26:19Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.7
+2026-11-07T14:26:19Z INF Retrying connection in up to 16s connIndex=0 event=0 ip=198.41.192.7
+2026-11-07T14:26:30Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T14:26:35Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T14:26:35Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T14:27:06Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T14:27:07Z INF Registered tunnel connection connIndex=0 connection=c4135a80-4fa0-4896-96df-aae09371ed7b event=0 ip=198.41.192.67 location=fra08 protocol=quic
+2026-11-07T15:05:50Z ERR Serve tunnel error error="accept stream listener error: failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T15:05:50Z INF Retrying connection in up to 2s connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T15:05:51Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.227
+2026-11-07T15:05:56Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.227
+2026-11-07T15:05:56Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.192.227
+2026-11-07T15:05:58Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.7
+2026-11-07T15:06:03Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.7
+2026-11-07T15:06:03Z INF Retrying connection in up to 8s connIndex=0 event=0 ip=198.41.192.7
+2026-11-07T15:06:07Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T15:06:12Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T15:06:12Z INF Retrying connection in up to 16s connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T15:06:27Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T15:06:32Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T15:06:32Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T15:06:33Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.77
+2026-11-07T15:06:38Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.77
+2026-11-07T15:06:38Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.77
+2026-11-07T15:06:39Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T15:06:44Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T15:06:44Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T15:07:14Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.33
+2026-11-07T15:07:19Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.33
+2026-11-07T15:07:19Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.200.33
+2026-11-07T15:07:23Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.77
+2026-11-07T15:07:28Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.77
+2026-11-07T15:07:28Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.77
+2026-11-07T15:07:32Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.13
+2026-11-07T15:07:37Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.13
+2026-11-07T15:07:37Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.200.13
+2026-11-07T15:08:02Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.33
+2026-11-07T15:08:07Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.33
+2026-11-07T15:08:07Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.200.33
+2026-11-07T15:08:07Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.113
+2026-11-07T15:08:12Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.113
+2026-11-07T15:08:12Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.200.113
+2026-11-07T15:08:30Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.167
+2026-11-07T15:08:35Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2026-11-07T15:08:35Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.167
+2026-11-07T15:08:44Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.7
+2026-11-07T15:08:49Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.7
+2026-11-07T15:08:49Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.7
+2026-11-07T15:09:17Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.193
+2026-11-07T15:09:22Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.193
+2026-11-07T15:09:22Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.200.193
+2026-11-07T15:09:35Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T15:09:40Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T15:09:40Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T15:10:01Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.43
+2026-11-07T15:10:06Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.43
+2026-11-07T15:10:06Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.200.43
+2026-11-07T15:10:23Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.233
+2026-11-07T15:10:28Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.233
+2026-11-07T15:10:28Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.200.233
+2026-11-07T15:10:59Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.27
+2026-11-07T15:11:04Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.27
+2026-11-07T15:11:04Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.27
+2026-11-07T15:11:19Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T15:11:24Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T15:11:24Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T15:11:32Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.227
+2026-11-07T15:11:37Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.227
+2026-11-07T15:11:37Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.227
+2026-11-07T15:11:37Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.27
+2026-11-07T15:11:42Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.27
+2026-11-07T15:11:42Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.27
+2026-11-07T15:12:08Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.167
+2026-11-07T15:12:13Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2026-11-07T15:12:13Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.167
+2026-11-07T15:12:29Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T15:12:34Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T15:12:34Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T15:13:02Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T15:13:07Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T15:13:07Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T15:13:33Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.227
+2026-11-07T15:13:38Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.227
+2026-11-07T15:13:38Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.227
+2026-11-07T15:13:54Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.77
+2026-11-07T15:13:59Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.77
+2026-11-07T15:13:59Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.77
+2026-11-07T15:14:11Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.27
+2026-11-07T15:14:16Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.27
+2026-11-07T15:14:16Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.27
+2026-11-07T15:14:40Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.73
+2026-11-07T15:14:45Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.73
+2026-11-07T15:14:45Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.200.73
+2026-11-07T15:14:48Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.37
+2026-11-07T15:14:53Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.37
+2026-11-07T15:14:53Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.37
+2026-11-07T15:15:19Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.227
+2026-11-07T15:15:19Z INF Registered tunnel connection connIndex=0 connection=1cda7078-1d57-43c4-842b-f23d55e4ffa0 event=0 ip=198.41.192.227 location=fra10 protocol=quic
+2026-11-07T15:15:26Z ERR Serve tunnel error error="accept stream listener error: failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.227
+2026-11-07T15:15:26Z INF Retrying connection in up to 2s connIndex=0 event=0 ip=198.41.192.227
+2026-11-07T15:15:27Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T15:15:32Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T15:15:32Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T15:15:36Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.77
+2026-11-07T15:15:41Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.77
+2026-11-07T15:15:41Z INF Retrying connection in up to 8s connIndex=0 event=0 ip=198.41.192.77
+2026-11-07T15:15:45Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.57
+2026-11-07T15:15:45Z INF Registered tunnel connection connIndex=0 connection=24c5de0e-f636-41cb-bb20-bac2e5b537a9 event=0 ip=198.41.192.57 location=fra03 protocol=quic
+2026-11-07T15:16:04Z ERR Serve tunnel error error="datagram manager error: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.57
+2026-11-07T15:16:04Z INF Retrying connection in up to 2s connIndex=0 event=0 ip=198.41.192.57
+2026-11-07T15:16:05Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.233
+2026-11-07T15:16:10Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.233
+2026-11-07T15:16:10Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.200.233
+2026-11-07T15:16:13Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T15:16:15Z INF Registered tunnel connection connIndex=0 connection=4ef7f13d-984d-4c9a-a90b-a6ae2d27edef event=0 ip=198.41.200.53 location=fra16 protocol=quic
+2026-11-07T15:16:24Z ERR Serve tunnel error error="accept stream listener error: failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T15:16:24Z INF Retrying connection in up to 2s connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T15:16:26Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.107
+2026-11-07T15:16:31Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.107
+2026-11-07T15:16:31Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.192.107
+2026-11-07T15:16:31Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.33
+2026-11-07T15:16:36Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.33
+2026-11-07T15:16:36Z INF Retrying connection in up to 8s connIndex=0 event=0 ip=198.41.200.33
+2026-11-07T15:16:40Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T15:16:41Z INF Registered tunnel connection connIndex=0 connection=5ba6aac3-03b8-48ab-ab26-e138e8580594 event=0 ip=198.41.200.23 location=fra18 protocol=quic
+2026-11-07T15:17:06Z ERR Serve tunnel error error="accept stream listener error: failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T15:17:06Z INF Retrying connection in up to 2s connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T15:17:06Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.63
+2026-11-07T15:17:11Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.63
+2026-11-07T15:17:11Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.200.63
+2026-11-07T15:17:15Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.107
+2026-11-07T15:17:20Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.107
+2026-11-07T15:17:20Z INF Retrying connection in up to 8s connIndex=0 event=0 ip=198.41.192.107
+2026-11-07T15:17:26Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.43
+2026-11-07T15:17:31Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.43
+2026-11-07T15:17:31Z INF Retrying connection in up to 16s connIndex=0 event=0 ip=198.41.200.43
+2026-11-07T15:17:40Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.113
+2026-11-07T15:17:45Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.113
+2026-11-07T15:17:45Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.200.113
+2026-11-07T15:17:49Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T15:17:54Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T15:17:54Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T15:18:12Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.7
+2026-11-07T15:18:17Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.7
+2026-11-07T15:18:17Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.7
+2026-11-07T15:18:28Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.113
+2026-11-07T15:18:33Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.113
+2026-11-07T15:18:33Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.200.113
+2026-11-07T15:18:35Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.7
+2026-11-07T15:18:40Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.7
+2026-11-07T15:18:40Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.7
+2026-11-07T15:18:41Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T15:18:46Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T15:18:46Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T15:18:57Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.227
+2026-11-07T15:19:02Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.227
+2026-11-07T15:19:02Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.227
+2026-11-07T15:19:19Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.233
+2026-11-07T15:19:19Z INF Registered tunnel connection connIndex=0 connection=7d804909-9c05-43c7-b941-aa56ba9f89b1 event=0 ip=198.41.200.233 location=fra16 protocol=quic
+2026-11-07T15:19:28Z ERR Serve tunnel error error="datagram manager error: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.233
+2026-11-07T15:19:28Z INF Retrying connection in up to 2s connIndex=0 event=0 ip=198.41.200.233
+2026-11-07T15:19:28Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T15:19:33Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T15:19:33Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T15:19:36Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T15:19:41Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T15:19:41Z INF Retrying connection in up to 8s connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T15:19:48Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.27
+2026-11-07T15:19:49Z INF Registered tunnel connection connIndex=0 connection=257f7e69-8fee-4354-8fcf-656d49c3da17 event=0 ip=198.41.192.27 location=fra03 protocol=quic
+2026-11-07T15:20:07Z ERR Serve tunnel error error="accept stream listener error: failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.27
+2026-11-07T15:20:07Z INF Retrying connection in up to 2s connIndex=0 event=0 ip=198.41.192.27
+2026-11-07T15:20:08Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T15:20:13Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T15:20:13Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.200.23
+2026-11-07T15:20:16Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.77
+2026-11-07T15:20:18Z INF Registered tunnel connection connIndex=0 connection=5db1c2de-1125-48c8-9294-bd7a252a878d event=0 ip=198.41.192.77 location=fra08 protocol=quic
+2026-11-07T15:21:08Z ERR Serve tunnel error error="accept stream listener error: failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.77
+2026-11-07T15:21:08Z INF Retrying connection in up to 2s connIndex=0 event=0 ip=198.41.192.77
+2026-11-07T15:21:08Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T15:21:13Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T15:21:13Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T15:21:14Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T15:21:19Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T15:21:19Z INF Retrying connection in up to 8s connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T15:21:20Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.167
+2026-11-07T15:21:21Z INF Registered tunnel connection connIndex=0 connection=95390238-1854-4e80-b866-d8105ec28094 event=0 ip=198.41.192.167 location=fra10 protocol=quic
+2026-11-07T16:00:19Z ERR Serve tunnel error error="accept stream listener error: failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2026-11-07T16:00:19Z INF Retrying connection in up to 2s connIndex=0 event=0 ip=198.41.192.167
+2026-11-07T16:00:20Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.193
+2026-11-07T16:00:24Z INF Registered tunnel connection connIndex=0 connection=87ac6f7d-683a-4fee-8bc1-6f27a77d46bb event=0 ip=198.41.200.193 location=fra06 protocol=quic
+2026-11-07T16:34:53Z ERR Serve tunnel error error="datagram manager error: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.193
+2026-11-07T16:34:53Z INF Retrying connection in up to 2s connIndex=0 event=0 ip=198.41.200.193
+2026-11-07T16:34:53Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.77
+2026-11-07T16:34:54Z INF Registered tunnel connection connIndex=0 connection=bcb75a62-f1fe-42a9-9d57-eb709020269c event=0 ip=198.41.192.77 location=fra03 protocol=quic
+2026-11-07T16:36:04Z ERR Serve tunnel error error="accept stream listener error: failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.77
+2026-11-07T16:36:04Z INF Retrying connection in up to 2s connIndex=0 event=0 ip=198.41.192.77
+2026-11-07T16:36:04Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.57
+2026-11-07T16:36:09Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.57
+2026-11-07T16:36:09Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.192.57
+2026-11-07T16:36:10Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.63
+2026-11-07T16:36:15Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.63
+2026-11-07T16:36:15Z INF Retrying connection in up to 8s connIndex=0 event=0 ip=198.41.200.63
+2026-11-07T16:36:21Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.7
+2026-11-07T16:36:22Z INF Registered tunnel connection connIndex=0 connection=50932c85-4d3b-4595-9708-085aa1e8c5ed event=0 ip=198.41.192.7 location=fra03 protocol=quic
+2026-11-07T16:36:40Z ERR Serve tunnel error error="datagram manager error: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.7
+2026-11-07T16:36:40Z INF Retrying connection in up to 2s connIndex=0 event=0 ip=198.41.192.7
+2026-11-07T16:36:41Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T16:36:42Z INF Registered tunnel connection connIndex=0 connection=3b037a6f-a272-4dd8-ba3b-c6d8dab87f3b event=0 ip=198.41.192.67 location=fra03 protocol=quic
+2026-11-07T16:42:26Z ERR Serve tunnel error error="accept stream listener error: failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T16:42:26Z INF Retrying connection in up to 2s connIndex=0 event=0 ip=198.41.192.67
+2026-11-07T16:42:28Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.227
+2026-11-07T16:42:33Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.227
+2026-11-07T16:42:33Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.192.227
+2026-11-07T16:42:33Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.113
+2026-11-07T16:42:38Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.113
+2026-11-07T16:42:38Z INF Retrying connection in up to 8s connIndex=0 event=0 ip=198.41.200.113
+2026-11-07T16:42:40Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.33
+2026-11-07T16:42:45Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.33
+2026-11-07T16:42:45Z INF Retrying connection in up to 16s connIndex=0 event=0 ip=198.41.200.33
+2026-11-07T16:42:50Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.107
+2026-11-07T16:42:55Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.107
+2026-11-07T16:42:55Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.107
+2026-11-07T16:43:06Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.192.27
+2026-11-07T16:43:11Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.27
+2026-11-07T16:43:11Z INF Retrying connection in up to 32s connIndex=0 event=0 ip=198.41.192.27
+2026-11-07T16:43:31Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T16:43:32Z INF Registered tunnel connection connIndex=0 connection=ba3a9c78-a156-4aa8-9a13-4c265b511c97 event=0 ip=198.41.200.53 location=fra16 protocol=quic
+2026-11-07T16:47:10Z ERR Serve tunnel error error="accept stream listener error: failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T16:47:10Z INF Retrying connection in up to 2s connIndex=0 event=0 ip=198.41.200.53
+2026-11-07T16:47:12Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveID(65074) CurveP256] connIndex=0 event=0 ip=198.41.200.73
+2026-11-07T16:47:12Z INF Registered tunnel connection connIndex=0 connection=b0720f96-a2c4-431c-b2b5-b9ca0145e2a7 event=0 ip=198.41.200.73 location=dme06 protocol=quic
